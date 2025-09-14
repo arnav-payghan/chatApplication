@@ -1,3 +1,3 @@
 # Java Chat Application:
-### Requirements
+## Requirements
 The application requires JavaFX and since we'll be using Java 17 JDK.
