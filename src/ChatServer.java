@@ -3,7 +3,7 @@ import java.net.*;
 import java.util.*;
 
 public class ChatServer {
-    private static final int PORT = 34451;
+    private static final int PORT = 1276;
     private static Set<PrintWriter> clientWriters = Collections.synchronizedSet(new HashSet<>());
 
     public static void main(String[] args) {

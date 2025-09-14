@@ -14,22 +14,10 @@
             "type": "java",
             "name": "ChatClient",
             "request": "launch",
-            "mainClass": "client.ChatClient",     // <-- add package name if your class has `package client;`
+            "mainClass": "client.ChatClient",
             "projectName": "chatApplication_8e4def7d",
-            "vmArgs": "--module-path C:/javafx/javafx-sdk-17.0.16/lib --add-modules javafx.controls,javafx.fxml"
-        },
-        {
-            "type": "java",
-            "name": "Current File",
-            "request": "launch",
-            "mainClass": "${file}"
-        },
-        {
-            "type": "java",
-            "name": "ChatClient",
-            "request": "launch",
-            "mainClass": "ChatClient",
-            "projectName": "chatApplication_8e4def7d"
+            "vmArgs": "--module-path \"C:/javafx/javafx-sdk-17.0.16/lib\" --add-modules javafx.base,javafx.controls,javafx.fxml,javafx.graphics,javafx.media,javafx.swing,javafx.web,javafx.swt"
+
         },
         {
             "type": "java",

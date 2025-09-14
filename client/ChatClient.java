@@ -37,10 +37,10 @@ public class ChatClient extends Application {
 
     private void connectToServer() {
         try {
-            Socket socket = new Socket("localhost", 34451);
+            Socket socket = new Socket("localhost", 1276);
             in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             out = new PrintWriter(socket.getOutputStream(), true);
-
+           
             Thread readerThread = new Thread(() -> {
                 try {
                     String message;
