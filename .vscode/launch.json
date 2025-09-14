@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ChatServer",
+            "request": "launch",
+            "mainClass": "server.ChatServer",
+            "projectName": "chatApplication_8e4def7d"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
@@ -17,7 +24,6 @@
             "mainClass": "client.ChatClient",
             "projectName": "chatApplication_8e4def7d",
             "vmArgs": "--module-path \"C:/javafx/javafx-sdk-17.0.16/lib\" --add-modules javafx.base,javafx.controls,javafx.fxml,javafx.graphics,javafx.media,javafx.swing,javafx.web,javafx.swt"
-
         },
         {
             "type": "java",

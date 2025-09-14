@@ -67,7 +67,7 @@ public class ChatWindow {
     private void sendMessage(String username) {
         String message = inputField.getText();
         if (!message.isEmpty() && out != null) {
-            out.println(username + ": " + message);
+            out.println("[ "+ username +" ]" + " : " + message);
             db.DatabaseHelper.incrementMessageCount(username); // ✅ increase count
             inputField.clear();
         }
