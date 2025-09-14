@@ -64,7 +64,7 @@ public class ChatClient extends Application {
 
     private void sendMessage() {
         String message = inputField.getText();
-        if (!message.isEmpty()) {
+        if (!message.isEmpty() && out != null) {
             out.println(message);
             inputField.clear();
         }
